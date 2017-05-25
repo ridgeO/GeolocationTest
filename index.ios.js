@@ -42,9 +42,6 @@ export default class GeolocationTest extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
         <Text>
           <Text style={styles.welcome}>Initial position: </Text>
           {this.state.initialPosition}
